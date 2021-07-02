@@ -1,0 +1,21 @@
+.TodoItem {
+  width: 50vw;
+  height: auto;
+  background-color: #999933;
+  padding: 5px;
+  font-size: 1.5em;
+  color: black;
+  font-weight: bold;
+  cursor:pointer;
+  word-wrap: break-word;
+}
+.TodoItem:hover{
+  border: 1px solid #C9CC3F;
+  border-radius: 5px;
+  box-shadow: inset 0 0 20px #C9CC3F;
+}
+.date-time{
+  text-align: right;
+  color:#663300;
+  font-size: 0.7em;
+}

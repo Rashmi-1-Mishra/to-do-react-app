@@ -1,0 +1,10 @@
+.to-do-section {
+  width: 50vw;
+  background-color: #999933;
+  padding: 5px;
+}
+.grid-items {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 0px;
+}

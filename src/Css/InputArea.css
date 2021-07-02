@@ -1,0 +1,14 @@
+.InputArea {
+  width: 35vw;
+  height: auto;
+  background-color: #999933;
+  border-radius: 5px;
+  border: 2px solid black;
+  font-weight: bold;
+  padding-left: 10px;
+  word-wrap: break-word;
+}
+.InputArea:empty:before {
+  content: attr(data-placeholder);
+  color:#DCDCDC;
+}
